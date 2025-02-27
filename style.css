@@ -12,6 +12,7 @@ nav {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  background-color: gray;
 }
 
 img {
@@ -24,26 +25,18 @@ figcaption {
   font-size: 10px;
 }
 
-p {
+#featured-property p {
   margin: auto;
   width: 800px;
 }
 
-
-#details div {
-  float: left;
-  width: 200px; 
-  margin-right: 10px; 
-}
-
 #details {
+  display: flex;
   overflow: auto;
   background-color: red;
   padding-left: 20px;
-}
-
-h3 {
-padding-left:200 ;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 
